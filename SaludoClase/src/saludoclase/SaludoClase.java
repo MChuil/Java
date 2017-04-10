@@ -3,24 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package holamundo;
-
-import java.io.IOException;
+package saludoclase;
 
 /**
  *
  * @author MiguelChuil
  */
-public class HolaMundo {
+public class SaludoClase {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Hola mundo");
-System.out.print('\u000C');
-    System.out.println("Hola mundo");
+        Saludo saludo = new Saludo();
+        saludo.saludar();
     }
     
 }
