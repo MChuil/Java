@@ -3,24 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplorecursividad;
+package ejerciciopersona;
 
 /**
  *
  * @author MiguelChuil
  */
-public class EjemploRecursividad {
+public class EjercicioPersona {
 
-  static int factorial(int num){
-      if(num == 0){
-          return 1;
-      }else{
-          return num*factorial(num-1);
-      }
-  }
-    
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-        System.out.println(factorial(5));
+        // TODO code application logic here
     }
     
 }
